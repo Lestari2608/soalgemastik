@@ -1,0 +1,54 @@
+Cookie Run
+Batas Run-time: 	1 detik / test-case
+Batas Memori: 	32 MB
+DESKRIPSI SOAL
+
+Saat pertama kali Bagong bermain Cookie Run di android, Bagong terkejut ketika melihat papan poin, ternyata Gareng sudah terlebih dahulu bermain dan memiliki nilai tertinggi sebesar X poin. Tentu Bagong tidak mau kalah.
+
+Cookie Run adalah permainan di mana dalam sekali run (permainan) kita harus memilih satu dari N karakter pemain berupa cookie. Cookie tersebut harus berlari melewati halang rintang dan mengumpulkan jelly dan koin sebanyak-banyaknya hingga kehabisan energi.
+
+Satu jelly bernilai satu poin dan hanya akan diakumulasi dalam satu kali run. Artinya pada run selanjutnya, total poin dimulai lagi dari nol. Nilai tertinggi seorang pemain adalah perolehan poin tertinggi dari run-run yang pernah dilakukan pemain tersebut. Sedangkan untuk koin, koin bisa dikumpulkan dari beberapa kali run. Karena ini pertama kalinya Bagong bermain, total koin yang dimiliki pada awalnya adalah nol.
+
+Setiap cookie memiliki kemampuan berbeda. Cookie ke i diperkirakan Bagong dalam sekali run mampu untuk mendapatkan poin sebanyak Pi juga koin sebanyak Ci. Pemain juga bisa meningkatkan kemampuan seluruh cookienya sebesar U dengan biaya M koin. Sehingga untuk setiap kali pemain meningkatkan kemampuan, kemampuan cookie ke i akan meningkat menjadi Pi + U dan Ci + U. Perhatikan contoh di bawah untuk lebih jelas.
+
+Tentukan berapa run minimal agar Bagong bisa mengalahkan nilai Gareng.
+
+PETUNJUK MASUKAN
+
+Baris pertama adalah bilangan bulat X, N, M, dan U seperti yang telah dijelaskan pada soal. N baris selanjutnya masing-masing terdiri dari dua bilangan Pi dan Ci. (1 ≤ X ≤ 20000; 1 ≤ N ≤ 100; 1 ≤ M ≤ 1500; 1 ≤ U ≤ 30; 1 ≤ Pi, Ci ≤ 1000 )
+PETUNJUK KELUARAN
+
+Sebuah bilangan bulat, minimal run.
+CONTOH MASUKAN 1
+
+120 3 130 10
+110 200
+125 50
+101 120
+
+CONTOH KELUARAN 1
+
+1
+
+CONTOH MASUKAN 2
+
+120 3 90 10
+110 20
+112 10
+115 30
+
+CONTOH KELUARAN 2
+
+4
+
+PETUNJUK
+
+Pada contoh pertama Bagong bisa memilih cookie kedua dan dalam sekali run Bagong akan mengalahkan nilai tertinggi Gareng, dengan nilai 125. Sedangkan pada contoh kedua, Bagong minimal harus run sebanyak 4 kali dengan SALAH SATU urutan penggunaan cookienya ialah:
+
+- pertama, Bagong menggunakan cookie ke-3 sebanyak tiga kali run (Bagong akan mendapatkan highscore 115 dan koin sebanyak 90)
+
+- lalu Bagong meningkatkan kemampuan semua cookienya sebesar 10, menjadi {120 30; 122 20; 125 40}.
+
+- berikutnya Bagong menggunakan cookie 2 untuk mengalahkan highscore Gareng (nilai Bagong 122).
+
+Bagi Anda yang ingin tahu lebih detail game ini seperti apa, Cookie Run bisa download langsung di Google Play Store di smartphone Android Anda. Tapi kami memperingatkan, jangan mainkan game tersebut saat lomba berlangsung atau akan butuh waktu lama bagi Anda untuk kembali mengerjakan soal.

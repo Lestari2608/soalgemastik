@@ -1,0 +1,28 @@
+Emoji
+Batas Run-time: 	1 detik / test-case
+Batas Memori: 	32 MB
+DESKRIPSI SOAL
+
+Pak Blangkon sedang bermain-main dengan emoticon yang ada di HP nya. Dan sekarang dia sedang mencoba untuk membuat program yang akan membantunya menentukan emoticon yang tepat untuk ekspresinya. Bantu Pak Blangkon dalam pembuatan program tersebut.
+
+Agar lebih mudah, Pak Blangkon hanya menentukan tiga ekspresi yang dapat disampaikan dengan emoticon:
+
+1. "semangat" dengan emoticon \(^_^)/
+
+2. "sebel" dengan emoticon >.<"
+
+3. "bingung" dengan emoticon (' ')?
+PETUNJUK MASUKAN
+
+Sebuah string "semangat","sebel", atau "bingung". (tanpa tanda petik)
+PETUNJUK KELUARAN
+
+String ekspresi lalu ditambah emoticon yang sesuai dengan ekpresinya yang dipisahkan oleh spasi.
+CONTOH MASUKAN
+
+semangat
+
+CONTOH KELUARAN
+
+semangat \(^_^)/
+
